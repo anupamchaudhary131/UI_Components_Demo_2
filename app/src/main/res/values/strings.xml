@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UI_Components_Demo_2</string>
+    <string name="text">Toggle</string>
+    <string name="off">Show Logo</string>
+    <string name="on">Hide logo</string>
+    <string name="button">Show Selection</string>
+    <string name="learnvern">LearnVern</string>
+    <string name="progress">Show My Progress</string>
+    <string name="spinner">Select Course</string>
+</resources>

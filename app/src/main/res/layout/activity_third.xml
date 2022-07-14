@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/learnvern"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+<!--    <Button
+        android:id="@+id/progressButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/progress"
+        android:textSize="@dimen/commonTextMargin"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/saffron"
+        android:layout_margin="@dimen/commonMargin"
+        android:onClick="showMyProgress"/>
+
+    <Spinner
+        android:id="@+id/courseSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner" />
+
+    <TextView
+        android:id="@+id/textCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/textsize"
+        android:text="@dimen/courseText"
+        android:textColor="@color/white"
+        android:textSize="@dimen/commonTextMargin"
+        android:textStyle="bold" /> !-->
+
+    <Button
+        android:id="@+id/selectTimeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:textSize="@dimen/commonTextMargin"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/commonMargin" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="340dp" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/commonTextMargin"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

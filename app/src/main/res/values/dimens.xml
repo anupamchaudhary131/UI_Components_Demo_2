@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize">30dp</dimen>
+    <dimen name="commonMargin">20dp</dimen>
+    <dimen name="commonTextMargin">18dp</dimen>
+    <dimen name="courseText">18dp</dimen>
+</resources>
